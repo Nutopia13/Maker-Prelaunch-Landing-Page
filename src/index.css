@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+span{
+  color: #3EE9E5;
+}
+
+.hero_bg{
+  background: url(./assets/illustration-hero-left.svg) left no-repeat , url(./assets/bg-hero-squiggle.svg) center no-repeat, url(./assets/illustration-hero-right.svg) right no-repeat;
+}
+
+@media only screen and (max-width: 595px) {
+
+
+  .hero_bg{
+    background-image: none;
+  }
+}
+
+ul, li{
+  margin-bottom: 12px ;
+}
+
+li::before{
+  padding-right: 15px;
+  content: url(./assets/icon-check.svg);
+}
+
+.dive li::before{
+  content: url(./assets/icon-check2.svg);
+}
+
+.price::after{
+  content: '/month';
+  font-size: 15px;
+  color: #080C20;
+  opacity: 0.6;
+  padding-left: 7.5px;
+  position: relative;
+  bottom: 10px
+}
+
+.text_foot{
+  background: url(./assets/bg-footer-squiggle.svg) no-repeat;
+}
