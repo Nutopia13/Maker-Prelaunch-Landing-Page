@@ -1,12 +1,12 @@
 const styles = {
 
 
-    heading1: 'font-manrope font-bold leading-10 lg:leading-[56px] lg:text-4xl text-xlg text-white',
-    heading2: 'font-manrope font-bold leading-[32px] lg:leading[43px] lg:text-xlg text-tiny text-white',
-    heading3: 'font-manrope font-bold text-base text-white',
+    heading1: 'font-manrope font-extra-bold leading-10 lg:leading-[56px] lg:text-4xl text-xlg text-white',
+    heading2: 'font-manrope font-extra-bold leading-[32px] lg:leading[43px] lg:text-xlg text-tiny text-white',
+    heading3: 'font-manrope font-extra-bold text-base text-white',
     paragraph: 'font-manrope font-medium leading-6 text-sm text-grey',
     cartimg: 'lg:m-none m-auto mt-[56px] mb-[32px] py-[22px] px-[30px] bg-plain-blue rounded-[45px] max-h-[124px] max-w-[120px]',
-    btn: 'font-manrope border-2 border-solid border-azure min-w-[327px] max-h-[48px] bg-azure text-sm rounded-3xl text-bold hover:bg-transparent hover:text-white active:bg-transparent text-plain-blue py-[12px] px-[18px]',
+    btn: 'transition ease-in-out delay-150 hover:scale-110 font-manrope border-2 border-solid border-azure min-w-[327px] max-h-[48px] bg-azure text-sm rounded-3xl font-extra-bold hover:bg-transparent hover:text-white active:bg-transparent text-plain-blue py-[12px] px-[18px]',
 
     boxWidth: "lg:max-w-[1280px] w-full",
     boxWidth2: 'w-full',
@@ -28,3 +28,5 @@ export const layout = {
   };
   
   export default styles;
+
+  
